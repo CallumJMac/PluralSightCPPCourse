@@ -1,0 +1,33 @@
+Compiler specific topics:
+
+vscode
+- Create new project
+- may create new files you dont need
+- dont destroy unwanted files
+
+
+- command line arguments
+int main(int argc, char *argv[]) #when someone passes in parameters from the command prompt
+{
+    return 0;
+}
+
+small.exe -g Hello 12
+clang++ a.cpp b.cpp #not a common technique these days
+
+argv[] #old C-style way to do a collection
+char* #old C-style way to do a string
+argc  #is the count of how many args are passed
+
+
+
+
+
+
+#pragma once
+-prevents a file from being included multiple times
+    -compiler errors about declaring things twice
+    -A includes B and C, they both include days
+
+-not oficially standard
+    -all major compiler support this
