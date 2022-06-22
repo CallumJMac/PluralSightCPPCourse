@@ -1,0 +1,5 @@
+const = constant
+-promises the compiler that a variables value wont change
+-prevents logic errors
+-enables optimization
+
