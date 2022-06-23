@@ -3,3 +3,23 @@ const = constant
 -prevents logic errors
 -enables optimization
 
+classes that manage a resource
+-make sure the file is not hanging open
+-be sure to close the connection to the database
+-use a destructor
+-guarantees that the clean up happens
+
+
+excpetions
+-alternative to returning error codes
+-can make nearter adn faster code when done correctly
+
+lambdas
+-a way to use a few lines of code as a paramter to a funciton,
+or something to store in a variables
+
+debugging
+-vital skill for dev
+-understand flow of control better
+-watch values change
+-see when compiler calls things for you e.g. constructor
